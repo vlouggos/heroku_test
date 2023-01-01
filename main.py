@@ -23,7 +23,7 @@ with app.app_context():
 def home():
     new_book = Book(title="TITLE", author="AUTHOR", rating=10)
     db.session.add(new_book)
-    return book.title
+    return DATABASE_URL
 
 
 
