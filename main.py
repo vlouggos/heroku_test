@@ -21,8 +21,8 @@ with app.app_context():
 
 @app.route("/")
 def home():
-    new_book = Book(title="TITLE", author="AUTHOR", rating=10)
-    db.session.add(new_book)
+   # new_book = Book(title="TITLE", author="AUTHOR", rating=10)
+   # db.session.add(new_book)
     return DATABASE_URL
 
 
