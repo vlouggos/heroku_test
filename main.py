@@ -8,7 +8,7 @@ DATABASE_URL = os.environ.get("DATABASE_URL")
 
 @app.route("/")
 def home():
-    return "jhcsfagjhsda"
+    return DATABASE_URL
 
 
 
